@@ -1,0 +1,59 @@
+header{
+    height: 100px;
+}
+
+footer{
+    height: 50px;
+}
+
+.image-logo{
+    height: 100px;
+}
+
+.game{
+    height: calc(100vh - 150px);
+}
+
+#grid{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+.square-element-big, .square-element-medium, .square-element-small{
+    cursor: crosshair;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px white solid;
+    float: left;
+}
+
+.square-element-big{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.square-element-medium{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.square-element-small{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
+.active{
+    background-color: greenyellow;
+}
+
+.active-bomb{
+    background-color: rgb(189, 8, 8);
+}
+
+.clerafix{
+    content: "";
+    clear: both;
+    display: table;
+}
